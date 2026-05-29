@@ -1,7 +1,10 @@
 #!/bin/bash
 
-echo "siri:: Hello Karthik, how are you?"
-echo "karthik :: hi siri, I'm fine."
-echo " siri :: what are you learning karthik?"
-echo " karthik :: learning shell?"
+person1=siri
+person2=karthik
+
+echo "$person1:: Hello $person2, how are you?"
+echo "$person2 :: hi $person1, I'm fine."
+echo " $person1 :: what are you learning $person2"
+echo " $person2 :: learning shell?"
 
