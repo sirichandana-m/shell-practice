@@ -1,10 +1,10 @@
 #!/bin/bash
 
-person1=sirichowdary
-person2=karthikrm
+person1=siri
+person2=karthik
 
-echo "$person1:: Hello $person2, how are you?"
-echo "$person2 :: hi $person1, I'm fine."
-echo " $person1 :: what are you learning $person2"
-echo " $person2 :: learning shell?"
+echo "Siri :: Hello Karthik, how are you?"
+echo "Karthik :: Hi siri, I'm fine thanks for asking what about you?"
+echo "Siri :: I'm good, what are you learning today?"
+echo "Karthik :: learning shell script"
 
