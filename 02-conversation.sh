@@ -1,6 +1,6 @@
 #!/bin/bash
 
-$person1=s Siri
+$person1=Siri
 $person2=karthik
 
 echo "$person1 :: Hello $person2, how are you?"
