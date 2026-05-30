@@ -1,10 +1,10 @@
 #!/bin/bash
 
-starttime=$(date +%s)
+START_TIME=$(date +%s)
 
-echo " script executed at : $starttime"
+echo " script executed at : $START_TIME"
  sleep 10
-endtime=$(date +%s)
-TotalTime=$(($endtime-$starttime))
-echo "script excecuted in :$TotalTime "
+END_TIME=$(date +%s)
+TOTAL_TIME=$(($END_TIME-$START_TIME))
+echo "script excecuted in :$TOTAL_TIME seconds"
 
