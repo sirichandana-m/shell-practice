@@ -9,7 +9,7 @@ USERID=$(id -u)
 
  echo " Installing nginx "
 
-dnf install nginxx -y
+dnf install nginx -y
 
 if [ $? -ne 0 ]; then
 echo " nginx installation is failure "
